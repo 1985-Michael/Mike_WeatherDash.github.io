@@ -55,8 +55,8 @@ h3 {
 }
 
 .btn {
-    margin: 30px;
-    margin-left: 30px;
+    margin: 13px;
+    margin-left: 14px;
     border-radius: 10px;
     background-color: rgb(88, 143, 243);
     border-style: none;
@@ -89,7 +89,7 @@ h3 {
     color: rgb(0, 0, 0);
     text-align: center;
     align-items: center;
-    margin-top: -86px;
+    margin-top: -65px;
 }
 
 img {
