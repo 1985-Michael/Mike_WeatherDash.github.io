@@ -1,4 +1,4 @@
-//Input and button Functions
+//Input,button Functions and Ajax Request
 
 $(document).ready(function() {
 
@@ -30,11 +30,13 @@ $(document).ready(function() {
 })
 
 function show(data) {
-    return "<p id='contentheader'><strong>Current Weather for " + data.name + ", " + data.sys.country + "</p>" +
+    return "<div class='box'><p id='contentheader'><strong>Current Weather for " + data.name + ", " + data.sys.country + "</p>" +
         "<p><strong>Weather</strong>: " + data.weather[0].main + "</p>" +
         "<p><strong>Description</strong>: <img src='http://openweathermap.org/img/w/" + data.weather[0].icon + ".png'> " + data.weather[0].description + "</p>" +
         "<p id='temp'><strong>Temperature</strong>: " + data.main.temp + " &deg;F </p>" +
         "<p><strong>Humidity</strong>: " + data.main.humidity + " %</p>" +
-        "<p><strong>Wind Speed</strong>: " + data.wind.deg + " m/s </p>"
+        "<p><strong>Wind Speed</strong>: " + data.wind.deg + " m/s </p> </div>"
 
 }
+
+
